@@ -80,3 +80,7 @@ whiskers:
   --topnav-text: {{ text | css_hsla }};
   --topnav-text-primary: {{ accent | css_hsla }};
 }
+
+#settings-background {
+  display: none;
+}
