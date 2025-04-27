@@ -70,18 +70,8 @@
   --topnav-icon-warning: hsla(40, 70%, 78%, 1.00);
   --topnav-text: hsla(227, 68%, 88%, 1.00);
   --topnav-text-primary: hsla(267, 83%, 80%, 1.00);
+}
 
-  /* Logo Colors */
-  --logo-outline: hsla(230, 19%, 26%, 1.00);
-  --logo-skin: hsla(21, 85%, 73%, 1.00);
-  --logo-face-shadow: hsla(355, 71%, 77%, 1.00);
-  --logo-eye-ref1: hsla(227, 68%, 88%, 1.00);
-  --logo-eye-ref2: hsla(228, 39%, 80%, 1.00);
-  --logo-eye-ref3: hsla(227, 27%, 72%, 1.00);
-  --logo-eye-gradient1: hsla(351, 74%, 73%, 1.00);
-  --logo-eye-gradient2: hsla(355, 71%, 77%, 1.00);
-  --logo-eye-gradient3: hsla(21, 85%, 73%, 1.00);
-  --logo-hair-gradient1: hsla(355, 71%, 77%, 1.00);
-  --logo-hair-gradient2: hsla(267, 83%, 80%, 1.00);
-  --logo-hair-gradient3: hsla(189, 60%, 73%, 1.00);
+#settings-background {
+  display: none;
 }
