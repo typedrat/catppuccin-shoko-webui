@@ -79,18 +79,4 @@ whiskers:
   --topnav-icon-warning: {{ yellow | css_hsla }};
   --topnav-text: {{ text | css_hsla }};
   --topnav-text-primary: {{ accent | css_hsla }};
-
-  /* Logo Colors */
-  --logo-outline: {{ surface0 | css_hsla }};
-  --logo-skin: {{ peach | css_hsla }};
-  --logo-face-shadow: {{ maroon | css_hsla }};
-  --logo-eye-ref1: {{ text | css_hsla }};
-  --logo-eye-ref2: {{ subtext1 | css_hsla }};
-  --logo-eye-ref3: {{ subtext0 | css_hsla }};
-  --logo-eye-gradient1: {{ red | css_hsla }};
-  --logo-eye-gradient2: {{ maroon | css_hsla }};
-  --logo-eye-gradient3: {{ peach | css_hsla }};
-  --logo-hair-gradient1: {{ maroon | css_hsla }};
-  --logo-hair-gradient2: {{ accent | css_hsla }};
-  --logo-hair-gradient3: {{ sky | css_hsla }};
 }
