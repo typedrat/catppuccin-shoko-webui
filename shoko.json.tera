@@ -1,0 +1,25 @@
+---
+whiskers:
+  version: "^2.5.1"
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/{{flavor.identifier}}/catppuccin-{{flavor.identifier}}-{{accent}}.json"
+---
+{
+  "name": "Catppuccin {{flavor.name}} {{flavor.colors[accent].name}}",
+  "version": "1.0.0",
+  "author": "Catppuccin",
+  "description": "A cute, pastel theme based on the Catppuccin color set. ({{flavor.name}} version with {{flavor.colors[accent].name}} accents)",
+  "tags": [
+    {% if flavor.light %}
+    "Light Theme",
+    {% else %}
+    "Dark Theme",
+    {% endif %}
+    "Catppuccin",
+    "{{flavor.colors[accent].name}}"
+  ],
+  "cssUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/{{flavor.identifier}}/catppuccin-{{flavor.identifier}}-{{accent}}.json",
+  "updateUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/{{flavor.identifier}}/catppuccin-{{flavor.identifier}}-{{accent}}.css"
+}

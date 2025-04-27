@@ -1,0 +1,96 @@
+---
+whiskers:
+version: "^2.5.1"
+matrix:
+- flavor
+- accent
+filename: "themes/{{flavor.identifier}}/catppuccin-{{flavor.identifier}}-{{accent}}.css"
+---
+{%- set accent = flavor.colors[accent] -%}
+& {
+  /* Buttons */
+  --button-danger: {{ red | css_hsla }};
+  --button-danger-border: {{ surface0 | css_hsla }};
+  --button-danger-hover: {{ red | mix(color=text, amount=0.2) | css_hsla }};
+  --button-danger-text: {{ base | css_hsla }};
+
+  --button-primary: {{ accent | css_hsla }};
+  --button-primary-border: {{ surface0 | css_hsla }};
+  --button-primary-hover: {{ accent | mix(color=text, amount=0.2) | css_hsla }};
+  --button-primary-text: {{ base | css_hsla }};
+
+  --button-secondary: {{ surface1 | css_hsla }};
+  --button-secondary-border: {{ surface0 | css_hsla }};
+  --button-secondary-hover: {{ surface2 | css_hsla }};
+  --button-secondary-text: {{ text | css_hsla }};
+
+  /* Header */
+  --header-background: {{ base | css_hsla }};
+  --header-icon: {{ text | css_hsla }};
+  --header-icon-primary: {{ accent | css_hsla }};
+  --header-text: {{ text | css_hsla }};
+  --header-text-important: {{ green | css_hsla }};
+  --header-user-background: {{ accent | css_hsla }};
+  --header-user-text: {{ base | css_hsla }};
+
+  /* Panels */
+  --panel-background: {{ base | css_hsla }};
+  --panel-background-alt: {{ mantle | css_hsla }};
+  --panel-background-selected-row: {{ surface0 | css_hsla }};
+  --panel-background-overlay: {{ mantle | mod(opacity=90) | css_hsla }};
+  --panel-background-poster-overlay: {{ mantle | mod(opacity=90) | css_hsla }};
+  --panel-background-transparent: {{ base | mod(opacity=65) | css_hsla }};
+  --panel-border: {{ surface0 | css_hsla }};
+  --panel-icon: {{ text | css_hsla }};
+  --panel-icon-action: {{ accent | css_hsla }};
+  --panel-icon-danger: {{ red | css_hsla }};
+  --panel-icon-important: {{ green | css_hsla }};
+  --panel-icon-warning: {{ yellow | css_hsla }};
+  --panel-input: {{ mantle | css_hsla }};
+  --panel-menu-item-background: {{ surface0 | css_hsla }};
+  --panel-menu-item-background-hover: {{ surface1 | css_hsla }};
+  --panel-menu-item-text: {{ text | css_hsla }};
+  --panel-table-header: {{ mantle | css_hsla }};
+  --panel-tags: {{ surface1 | css_hsla }};
+  --panel-text: {{ text | css_hsla }};
+  --panel-text-danger: {{ red | css_hsla }};
+  --panel-text-important: {{ green | css_hsla }};
+  --panel-text-other: {{ mauve | css_hsla }};
+  --panel-text-primary: {{ accent | css_hsla }};
+  --panel-text-warning: {{ yellow | css_hsla }};
+  --panel-toggle-background: {{ surface0 | css_hsla }};
+  --panel-toggle-background-alt: {{ surface1 | css_hsla }};
+  --panel-toggle-background-hover: {{ surface1 | css_hsla }};
+  --panel-toggle-text: {{ text | css_hsla }};
+  --panel-toggle-text-alt: {{ subtext0 | css_hsla }};
+
+  /* Sliders */
+  --slider-background: {{ surface0 | css_hsla }};
+  --slider-background-alt: {{ surface1 | css_hsla }};
+  --slider-color: {{ accent | css_hsla }};
+  --slider-color-alt: {{ accent | css_hsla }};
+
+  /* Top Navigation */
+  --topnav-background: {{ mantle | css_hsla }};
+  --topnav-border: {{ surface0 | css_hsla }};
+  --topnav-icon: {{ text | css_hsla }};
+  --topnav-icon-important: {{ green | css_hsla }};
+  --topnav-icon-primary: {{ accent | css_hsla }};
+  --topnav-icon-warning: {{ yellow | css_hsla }};
+  --topnav-text: {{ text | css_hsla }};
+  --topnav-text-primary: {{ accent | css_hsla }};
+
+  /* Logo Colors */
+  --logo-outline: {{ surface0 | css_hsla }};
+  --logo-skin: {{ peach | css_hsla }};
+  --logo-face-shadow: {{ maroon | css_hsla }};
+  --logo-eye-ref1: {{ text | css_hsla }};
+  --logo-eye-ref2: {{ subtext1 | css_hsla }};
+  --logo-eye-ref3: {{ subtext0 | css_hsla }};
+  --logo-eye-gradient1: {{ red | css_hsla }};
+  --logo-eye-gradient2: {{ maroon | css_hsla }};
+  --logo-eye-gradient3: {{ peach | css_hsla }};
+  --logo-hair-gradient1: {{ maroon | css_hsla }};
+  --logo-hair-gradient2: {{ accent | css_hsla }};
+  --logo-hair-gradient3: {{ sky | css_hsla }};
+}
