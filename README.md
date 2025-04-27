@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Download the theme of your choice from `themes/`.
+1. Download the `.json` file for the theme of your choice from `themes/`.
 2. Go to the Settings tab inside Shoko's WebUI and click on "Upload Theme".
 3. Select the downloaded theme file and upload it.
 
