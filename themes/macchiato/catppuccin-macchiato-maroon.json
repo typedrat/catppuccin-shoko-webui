@@ -1,0 +1,15 @@
+{
+  "name": "Catppuccin Macchiato Maroon",
+  "version": "1.0.0",
+  "author": "Catppuccin",
+  "description": "A cute, pastel theme based on the Catppuccin color set. (Macchiato version with Maroon accents)",
+  "tags": [
+    
+    "Dark Theme",
+    
+    "Catppuccin",
+    "Maroon"
+  ],
+  "cssUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/macchiato/catppuccin-macchiato-maroon.css",
+  "updateUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/macchiato/catppuccin-macchiato-maroon.json"
+}

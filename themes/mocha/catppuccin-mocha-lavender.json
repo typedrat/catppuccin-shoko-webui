@@ -1,0 +1,15 @@
+{
+  "name": "Catppuccin Mocha Lavender",
+  "version": "1.0.0",
+  "author": "Catppuccin",
+  "description": "A cute, pastel theme based on the Catppuccin color set. (Mocha version with Lavender accents)",
+  "tags": [
+    
+    "Dark Theme",
+    
+    "Catppuccin",
+    "Lavender"
+  ],
+  "cssUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/mocha/catppuccin-mocha-lavender.css",
+  "updateUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/mocha/catppuccin-mocha-lavender.json"
+}

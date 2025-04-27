@@ -1,0 +1,15 @@
+{
+  "name": "Catppuccin Latte Red",
+  "version": "1.0.0",
+  "author": "Catppuccin",
+  "description": "A cute, pastel theme based on the Catppuccin color set. (Latte version with Red accents)",
+  "tags": [
+    
+    "Light Theme",
+    
+    "Catppuccin",
+    "Red"
+  ],
+  "cssUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/latte/catppuccin-latte-red.css",
+  "updateUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/latte/catppuccin-latte-red.json"
+}

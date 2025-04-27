@@ -1,0 +1,15 @@
+{
+  "name": "Catppuccin Macchiato Rosewater",
+  "version": "1.0.0",
+  "author": "Catppuccin",
+  "description": "A cute, pastel theme based on the Catppuccin color set. (Macchiato version with Rosewater accents)",
+  "tags": [
+    
+    "Dark Theme",
+    
+    "Catppuccin",
+    "Rosewater"
+  ],
+  "cssUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/macchiato/catppuccin-macchiato-rosewater.css",
+  "updateUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/macchiato/catppuccin-macchiato-rosewater.json"
+}

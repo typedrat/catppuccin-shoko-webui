@@ -1,0 +1,15 @@
+{
+  "name": "Catppuccin Frappé Mauve",
+  "version": "1.0.0",
+  "author": "Catppuccin",
+  "description": "A cute, pastel theme based on the Catppuccin color set. (Frappé version with Mauve accents)",
+  "tags": [
+    
+    "Dark Theme",
+    
+    "Catppuccin",
+    "Mauve"
+  ],
+  "cssUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/frappe/catppuccin-frappe-mauve.css",
+  "updateUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/frappe/catppuccin-frappe-mauve.json"
+}

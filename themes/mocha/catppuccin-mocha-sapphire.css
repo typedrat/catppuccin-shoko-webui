@@ -1,0 +1,87 @@
+& {
+  /* Buttons */
+  --button-danger: hsla(343, 81%, 75%, 1.00);
+  --button-danger-border: hsla(237, 16%, 23%, 1.00);
+  --button-danger-hover: hsla(268, 36%, 84%, 1.00);
+  --button-danger-text: hsla(240, 21%, 15%, 1.00);
+
+  --button-primary: hsla(199, 76%, 69%, 1.00);
+  --button-primary-border: hsla(237, 16%, 23%, 1.00);
+  --button-primary-hover: hsla(214, 68%, 84%, 1.00);
+  --button-primary-text: hsla(240, 21%, 15%, 1.00);
+
+  --button-secondary: hsla(234, 13%, 31%, 1.00);
+  --button-secondary-border: hsla(237, 16%, 23%, 1.00);
+  --button-secondary-hover: hsla(233, 12%, 39%, 1.00);
+  --button-secondary-text: hsla(226, 64%, 88%, 1.00);
+
+  /* Header */
+  --header-background: hsla(240, 21%, 15%, 1.00);
+  --header-icon: hsla(226, 64%, 88%, 1.00);
+  --header-icon-primary: hsla(199, 76%, 69%, 1.00);
+  --header-text: hsla(226, 64%, 88%, 1.00);
+  --header-text-important: hsla(115, 54%, 76%, 1.00);
+  --header-user-background: hsla(199, 76%, 69%, 1.00);
+  --header-user-text: hsla(240, 21%, 15%, 1.00);
+
+  /* Panels */
+  --panel-background: hsla(240, 21%, 15%, 1.00);
+  --panel-background-alt: hsla(240, 21%, 12%, 1.00);
+  --panel-background-selected-row: hsla(237, 16%, 23%, 1.00);
+  --panel-background-overlay: hsla(240, 21%, 12%, 1.00);
+  --panel-background-poster-overlay: hsla(240, 21%, 12%, 1.00);
+  --panel-background-transparent: hsla(240, 21%, 15%, 1.00);
+  --panel-border: hsla(237, 16%, 23%, 1.00);
+  --panel-icon: hsla(226, 64%, 88%, 1.00);
+  --panel-icon-action: hsla(199, 76%, 69%, 1.00);
+  --panel-icon-danger: hsla(343, 81%, 75%, 1.00);
+  --panel-icon-important: hsla(115, 54%, 76%, 1.00);
+  --panel-icon-warning: hsla(41, 86%, 83%, 1.00);
+  --panel-input: hsla(240, 21%, 12%, 1.00);
+  --panel-menu-item-background: hsla(237, 16%, 23%, 1.00);
+  --panel-menu-item-background-hover: hsla(234, 13%, 31%, 1.00);
+  --panel-menu-item-text: hsla(226, 64%, 88%, 1.00);
+  --panel-table-header: hsla(240, 21%, 12%, 1.00);
+  --panel-tags: hsla(234, 13%, 31%, 1.00);
+  --panel-text: hsla(226, 64%, 88%, 1.00);
+  --panel-text-danger: hsla(343, 81%, 75%, 1.00);
+  --panel-text-important: hsla(115, 54%, 76%, 1.00);
+  --panel-text-other: hsla(267, 84%, 81%, 1.00);
+  --panel-text-primary: hsla(199, 76%, 69%, 1.00);
+  --panel-text-warning: hsla(41, 86%, 83%, 1.00);
+  --panel-toggle-background: hsla(237, 16%, 23%, 1.00);
+  --panel-toggle-background-alt: hsla(234, 13%, 31%, 1.00);
+  --panel-toggle-background-hover: hsla(234, 13%, 31%, 1.00);
+  --panel-toggle-text: hsla(226, 64%, 88%, 1.00);
+  --panel-toggle-text-alt: hsla(228, 24%, 72%, 1.00);
+
+  /* Sliders */
+  --slider-background: hsla(237, 16%, 23%, 1.00);
+  --slider-background-alt: hsla(234, 13%, 31%, 1.00);
+  --slider-color: hsla(199, 76%, 69%, 1.00);
+  --slider-color-alt: hsla(199, 76%, 69%, 1.00);
+
+  /* Top Navigation */
+  --topnav-background: hsla(240, 21%, 12%, 1.00);
+  --topnav-border: hsla(237, 16%, 23%, 1.00);
+  --topnav-icon: hsla(226, 64%, 88%, 1.00);
+  --topnav-icon-important: hsla(115, 54%, 76%, 1.00);
+  --topnav-icon-primary: hsla(199, 76%, 69%, 1.00);
+  --topnav-icon-warning: hsla(41, 86%, 83%, 1.00);
+  --topnav-text: hsla(226, 64%, 88%, 1.00);
+  --topnav-text-primary: hsla(199, 76%, 69%, 1.00);
+
+  /* Logo Colors */
+  --logo-outline: hsla(237, 16%, 23%, 1.00);
+  --logo-skin: hsla(23, 92%, 76%, 1.00);
+  --logo-face-shadow: hsla(350, 65%, 78%, 1.00);
+  --logo-eye-ref1: hsla(226, 64%, 88%, 1.00);
+  --logo-eye-ref2: hsla(227, 35%, 80%, 1.00);
+  --logo-eye-ref3: hsla(228, 24%, 72%, 1.00);
+  --logo-eye-gradient1: hsla(343, 81%, 75%, 1.00);
+  --logo-eye-gradient2: hsla(350, 65%, 78%, 1.00);
+  --logo-eye-gradient3: hsla(23, 92%, 76%, 1.00);
+  --logo-hair-gradient1: hsla(350, 65%, 78%, 1.00);
+  --logo-hair-gradient2: hsla(199, 76%, 69%, 1.00);
+  --logo-hair-gradient3: hsla(189, 71%, 73%, 1.00);
+}

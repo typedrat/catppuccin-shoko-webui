@@ -20,6 +20,6 @@ whiskers:
     "Catppuccin",
     "{{flavor.colors[accent].name}}"
   ],
-  "cssUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/{{flavor.identifier}}/catppuccin-{{flavor.identifier}}-{{accent}}.json",
-  "updateUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/{{flavor.identifier}}/catppuccin-{{flavor.identifier}}-{{accent}}.css"
+  "cssUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/{{flavor.identifier}}/catppuccin-{{flavor.identifier}}-{{accent}}.css",
+  "updateUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/{{flavor.identifier}}/catppuccin-{{flavor.identifier}}-{{accent}}.json"
 }

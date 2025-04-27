@@ -1,0 +1,15 @@
+{
+  "name": "Catppuccin Mocha Yellow",
+  "version": "1.0.0",
+  "author": "Catppuccin",
+  "description": "A cute, pastel theme based on the Catppuccin color set. (Mocha version with Yellow accents)",
+  "tags": [
+    
+    "Dark Theme",
+    
+    "Catppuccin",
+    "Yellow"
+  ],
+  "cssUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/mocha/catppuccin-mocha-yellow.css",
+  "updateUrl": "https://raw.githubusercontent.com/typedrat/catppuccin-shoko-webui/refs/heads/main/themes/mocha/catppuccin-mocha-yellow.json"
+}
